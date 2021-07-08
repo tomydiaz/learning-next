@@ -38,6 +38,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(props) {
+  console.log(props);
   const sites = await getSitesFromApi();
 
   console.log("params", props.params);
