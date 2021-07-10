@@ -8,7 +8,7 @@ const Sites = (props) => {
       <div>Sites</div>
       {props.sites.map((site) => {
         return (
-          <Link key={site} href={`./sites/${site.id}`}>
+          <Link key={site} href={`/dashboard/sites/${site.id}`}>
             <a>
               <div>Go to Site Number: {site.id}</div>
             </a>

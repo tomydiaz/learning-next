@@ -4,7 +4,7 @@ const Dashboard = (props) => {
   return (
     <>
       <div>Dashboard</div>
-      <Link href={`./sites`}>
+      <Link href={`/dashboard/sites`}>
         <a>
           <div>Go to All Sites</div>
         </a>

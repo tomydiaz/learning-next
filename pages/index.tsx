@@ -3,7 +3,7 @@ import Link from "next/link";
 const Home = (props) => {
   return (
     <>
-      <div>Home DEV asd</div>
+      <div>Home DEV</div>
       <Link href={`./dashboard`}>
         <a>
           <div>Go to Dashboard</div>
